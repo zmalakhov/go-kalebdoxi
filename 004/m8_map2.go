@@ -22,5 +22,7 @@ func main() {
 
 	if name, ok := elements["un"]; ok {
 		fmt.Println(name, ok)
+	}else {
+		fmt.Println("not found")
 	}
 }
